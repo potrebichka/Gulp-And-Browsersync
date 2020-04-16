@@ -1,3 +1,6 @@
+body {
+  background: blue; }
+
 .wrapper {
   font-size: 18px;
   color: #333;
@@ -22,3 +25,27 @@
       margin-bottom: 10px;
       background: #eee;
       padding-left: 15px; }
+      .wrapper ul li a {
+        color: green; }
+        .wrapper ul li a:hover {
+          color: red; }
+
+.blog__read-more, .blog__read-more--unavailable {
+  background: black;
+  padding: 10px;
+  display: block; }
+
+.blog {
+  width: 80vw;
+  margin: 0 auto; }
+  .blog__h1 {
+    color: blue; }
+  .blog__p {
+    color: gray; }
+    .blog__p__a {
+      color: red; }
+  .blog__read-more {
+    color: white; }
+    .blog__read-more--unavailable {
+      color: gray;
+      cursor: not-allowed; }

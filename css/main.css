@@ -2838,3 +2838,7 @@ template {
   .ml-xl-auto,
   .mx-xl-auto {
     margin-left: auto !important; } }
+
+.primary {
+  background-color: red;
+  height: 300px; }
